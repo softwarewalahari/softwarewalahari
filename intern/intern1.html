@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NayePankh Foundation Dashboard</title>
+  <link rel="stylesheet" href="intern1.css">
+  <script src="intern1.js"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Transactions</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Welcome, <span id="userName">HARITHA YADAV</span></h1>
+
+    <!-- Goal Achieved Section -->
+    <div class="goal-section">
+      <h2>Goal Achieved</h2>
+      <p><span id="goalAmount">$500</span> raised through your referral!</p>
+      <progress value="500" max="1000"></progress>
+    </div>
+
+    <!-- Referral Code Section -->
+    <div class="referral-section">
+      <h3>Your Referral Code: <span id="referralCode">XYZ123</span></h3>
+      <button id="copyLinkBtn">Copy Donation Link</button>
+      <button id="shareWhatsAppBtn">Share on WhatsApp</button>
+    </div>
+
+    <!-- Transactions Table -->
+    <h2>Your Transactions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Donor Name</th>
+          <th>Amount</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="transactionList">
+        <!-- Transaction data will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
