@@ -51,7 +51,7 @@ body {
   }
   
   h1 {
-    font-size: 32px;
+    font-size: 50px;
     color: #2c3e50; /* Dark Blue */
   }
   
@@ -61,6 +61,7 @@ body {
   
   h3 {
     color: #16a085; /* Greenish-blue */
+    font-size:30px;
   }
   
   p {
